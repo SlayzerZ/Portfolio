@@ -1,0 +1,40 @@
+.photo{
+    width: 200px;
+    height: 200px;
+}
+.infos1{
+    display: inline-flex;
+    justify-content: space-around;
+    vertical-align: top;
+    text-align: justify;
+    margin-left: 0rem;
+    
+}
+.FirstName{
+    justify-content: space-between;
+    margin-left: 2rem;   
+}
+.LastName{
+    margin-top: 2rem;
+    margin-left: -6.5rem;
+}
+.Birthdate{
+    margin-top: 4rem;
+    margin-left: -7rem;
+}
+.EstablishName{
+    margin-top: 6rem;
+    margin-left: -12.75rem;
+}
+.Email{
+    margin-top: 8rem;
+    margin-left: -18.25rem;
+}
+.Cellphone{
+    margin-top: 10rem;
+    margin-left: -14.5rem;
+}
+fieldset{
+    width: 35%;
+    height: 50%;
+}
