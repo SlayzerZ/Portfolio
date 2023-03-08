@@ -1,3 +1,47 @@
+@font-face {
+    font-family: "Lombax";
+    src: url("../assets/fonts/Lombax.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sheikah";
+    src: url("../assets/fonts/botw-hylian.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Hylia";
+    src: url("../assets/fonts/HyliaSerif.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Wumpa";
+    src: url("../assets/fonts/Crash\ Bandicoot\ Wumpa.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Mario";
+    src: url("../assets/fonts/supermario.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Kh";
+    src: url("../assets/fonts/Kingdom_Hearts_Font.ttf") format("truetype");
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    flex: 2 1 30rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 15rem;
+}
+.title{
+    font-family: "Kh";
+    font-size: 100pt;
+}
 .photo{
     width: 200px;
     height: 200px;
@@ -33,6 +77,11 @@
 .Cellphone{
     margin-top: 10rem;
     margin-left: -14.5rem;
+}
+.Other{
+    font-family: "Lombax";
+    margin-top: 13rem;
+    margin-left: -18rem;
 }
 fieldset{
     width: 35%;
