@@ -42,7 +42,13 @@ nav ul{
 .title{
     font-family: "Hylia";
     font-size: 50pt;
+    color: rgb(219,115,75);
 }
 .line{
     font-family: "Hylia";
+    color: rgb(202,1,12);
+    text-align: center;
+}
+.school{
+    
 }
