@@ -22,6 +22,9 @@
     font-family: "Kh";
     src: url("../assets/fonts/Kingdom_Hearts_Font.ttf") format("truetype");
 }
+body{
+    background: linear-gradient(#FCB147, #5C7084,#A0F1F9,#A36705,#A19858,#E4D34B,#F3765A,#C20B3E,#566814,#D57BB7,#8846B0);
+}
 nav{
     min-height: 10vh;
     display: flex;
@@ -37,6 +40,7 @@ nav ul{
     align-items: center;
     list-style: none;
     margin-left: 15rem;
+    font-size: 25px;
 }
 
 .title{
@@ -49,6 +53,66 @@ nav ul{
     color: rgb(202,1,12);
     text-align: center;
 }
+img{
+    display: table-cell;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+}
 .school{
-    
+text-align: center;
+}
+.Description{
+font-weight: bold;
+}
+#match{
+    background-color:#FCB147;
+    /* color: aliceblue; */
+}
+#hangman{
+    background-color:#5C7084;
+    color: aliceblue;
+}
+#hangmanweb{
+    background-color:#A0F1F9;
+    /* color: aliceblue; */
+}
+#shop{
+    background-color:#A36705;
+    color: aliceblue;
+}
+#groupie{
+    background-color:#A19858;
+    color: aliceblue;
+}
+#get{
+    background-color:#E4D34B;
+    /* color: aliceblue; */
+}
+#brick{
+    background-color:#F3765A;
+    color: aliceblue;
+}
+#pimp{
+    background-color:#C20B3E;
+    color: aliceblue;
+}
+#keycodes{
+    background-color:#566814;
+    color: aliceblue;
+}
+#sortable{
+    /* display:flex; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color:#D57BB7;
+    color: aliceblue;
+}
+#boxxle{
+    background-color:#8846B0;
+    color: aliceblue;
+}
+#Link{
+    font-size: 25px;
 }
