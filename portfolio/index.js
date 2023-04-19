@@ -2,7 +2,7 @@ let Description = document.getElementsByClassName("Description")
 let Link = document.getElementById("Link")
 let space = "<br>"
 let ynovref = "https://github.com/SlayzerZ/Ynov-Rentiel"
-let Matchstick = new Image (1000,500); Matchstick.src = '../assets/pictures/matchstick.jpg'
+let Matchstick = new Image (1000,500); Matchstick.src = '../assets/matchstick.jpg'
 let Hangman = new Image (1000,500); Hangman.src = '../assets/pictures/hangman.gif'
 let HangmanWeb = new Image (1000,600); HangmanWeb.src = '../assets/pictures/hangman-web.gif'
 let MusicShop = new Image (1000,600); MusicShop.src = '../assets/pictures/music-shop.gif'
