@@ -31,3 +31,4 @@ Description[9].appendChild(Sortable1)
 Description[9].appendChild(Sortable2)
 Description[10].appendChild(Boxxle)
 Link.innerHTML ="<b>" + "Lien des projets : " + "</b>" + space + "<a href=" +ynovref+ "> Ici</a>"
+// hj
