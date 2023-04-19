@@ -16,7 +16,7 @@ let Keycodes = new Image (1000,600); Keycodes.src = '../assets/pictures/keycodes
 let Sortable1 = new Image (1000,600); Sortable1.src = '../assets/pictures/sortable1.gif'
 let Sortable2 = new Image (1000,600); Sortable2.src = '../assets/pictures/sortable2.gif'
 let Boxxle = new Image (1100,600); Boxxle.src = '../assets/pictures/boxxle.gif'
-// Description[0].appendChild(Matchstick)
+Description[0].appendChild(Matchstick)
 Description[1].appendChild(Hangman)
 Description[2].appendChild(HangmanWeb)
 Description[3].appendChild(MusicShop)
