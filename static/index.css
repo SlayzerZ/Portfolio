@@ -23,7 +23,8 @@
     src: url("../assets/fonts/Kingdom_Hearts_Font.ttf") format("truetype");
 }
 body{
-    background: linear-gradient(#FCB147, #5C7084,#A0F1F9,#A36705,#A19858,#E4D34B,#F3765A,#C20B3E,#566814,#D57BB7,#8846B0);
+    /* background: linear-gradient(#FCB147, #5C7084,#A0F1F9,#A36705,#A19858,#E4D34B,#F3765A,#C20B3E,#566814,#D57BB7,#8846B0); */
+    background-image: url("../assets/pictures/bg3.jpg");
 }
 nav{
     min-height: 10vh;
@@ -42,11 +43,17 @@ nav ul{
     margin-left: 15rem;
     font-size: 25px;
 }
-
+a,a:hover,a:active,a:focus {
+	display:inline-block;
+	text-decoration:none;
+	color: #6a708e;
+	font-size:25px;
+	padding:0;
+}
 .title{
     font-family: "Hylia";
     font-size: 50pt;
-    color: rgb(219,115,75);
+    color: rgb(193, 2, 2);
 }
 .line{
     font-family: "Hylia";
@@ -66,39 +73,39 @@ text-align: center;
 font-weight: bold;
 }
 #match{
-    background-color:#FCB147;
-    /* color: aliceblue; */
+    /* background-color:#FCB147; */
+    color: aliceblue;
 }
 #hangman{
-    background-color:#5C7084;
+    /* background-color:#5C7084; */
     color: aliceblue;
 }
 #hangmanweb{
-    background-color:#A0F1F9;
-    /* color: aliceblue; */
+    /* background-color:#A0F1F9; */
+    color: aliceblue;
 }
 #shop{
-    background-color:#A36705;
+    /* background-color:#A36705; */
     color: aliceblue;
 }
 #groupie{
-    background-color:#A19858;
+    /* background-color:#A19858; */
     color: aliceblue;
 }
 #get{
-    background-color:#E4D34B;
-    /* color: aliceblue; */
+    /* background-color:#E4D34B; */
+    color: aliceblue;
 }
 #brick{
-    background-color:#F3765A;
+    /* background-color:#F3765A; */
     color: aliceblue;
 }
 #pimp{
-    background-color:#C20B3E;
+    /* background-color:#C20B3E; */
     color: aliceblue;
 }
 #keycodes{
-    background-color:#566814;
+    /* background-color:#566814; */
     color: aliceblue;
 }
 #sortable{
@@ -106,13 +113,22 @@ font-weight: bold;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap-reverse;
-    background-color:#D57BB7;
+    /* background-color:#D57BB7; */
     color: aliceblue;
 }
 #boxxle{
-    background-color:#8846B0;
+    /* background-color:#8846B0; */
+    color: aliceblue;
+}
+#forum{
+    /* background-color:#8846B0; */
     color: aliceblue;
 }
 #Link{
     font-size: 25px;
+}
+.pose{
+    height: 0px;
+	max-height: 0%;
+    border-color: black;
 }

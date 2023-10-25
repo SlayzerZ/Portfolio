@@ -2,7 +2,7 @@ let Description = document.getElementsByClassName("Description")
 let Link = document.getElementById("Link")
 let space = "<br>"
 let ynovref = "https://github.com/SlayzerZ/Ynov-Rentiel"
-let Matchstick = new Image (1000,500); Matchstick.src = './assets/matchstick.jpg'
+let Matchstick = new Image (1000,500); Matchstick.src = './assets/pictures/matchstick.jpg'
 let Hangman = new Image (1000,500); Hangman.src = './assets/pictures/hangman.gif'
 let HangmanWeb = new Image (1000,600); HangmanWeb.src = './assets/pictures/hangman-web.gif'
 let MusicShop = new Image (1000,600); MusicShop.src = './assets/pictures/music-shop.gif'
@@ -16,6 +16,8 @@ let Keycodes = new Image (1000,600); Keycodes.src = './assets/pictures/keycodes.
 let Sortable1 = new Image (1000,600); Sortable1.src = './assets/pictures/sortable1.gif'
 let Sortable2 = new Image (1000,600); Sortable2.src = './assets/pictures/sortable2.gif'
 let Boxxle = new Image (1100,600); Boxxle.src = './assets/pictures/boxxle.gif'
+let Forum1 = new Image (1000,600); Forum1.src = './assets/pictures/forum1.gif'
+let Forum2 = new Image (1000,600); Forum2.src = './assets/pictures/forum2.gif'
 Description[0].appendChild(Matchstick)
 Description[1].appendChild(Hangman)
 Description[2].appendChild(HangmanWeb)
@@ -30,4 +32,6 @@ Description[8].appendChild(Keycodes)
 Description[9].appendChild(Sortable1)
 Description[9].appendChild(Sortable2)
 Description[10].appendChild(Boxxle)
+Description[11].appendChild(Forum1)
+Description[11].appendChild(Forum2)
 Link.innerHTML ="<b>" + "Lien des projets : " + "</b>" + space + "<a href=" +ynovref+ "> Ici</a>"
