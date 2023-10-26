@@ -19,7 +19,12 @@ body{
     margin:0 auto;
 	overflow-x:hidden;
     background-image: url("../assets/pictures/background.png");
+    background-image: no-repeat;
+    backdrop-filter: contrast(0.5);
+    height: 0%;
+   
 }
+
 nav{
     font-weight: bold;
 }
@@ -44,7 +49,10 @@ p {
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
-img{border:none;max-width:100%; height:auto;}
+img{
+    border:none;max-width:100%; height:auto;
+
+}
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -147,6 +155,10 @@ html,body{
 .experience {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
+    height: 0%;
+}
+.container{
+    height: 0%;
 }
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
@@ -198,14 +210,14 @@ html,body{
     text-transform: uppercase;
 }
 .timeline-content h5 {
-    color: rgb(156, 99, 7);
+    color: rgb(199, 124, 4);
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
 }
 .main-timeline .description {
     font-size: 14px;
-    color: rgb(12, 4, 164);
+    color: rgb(255, 255, 255);
 }
 .main-timeline .timeline-content.right{
     float: right;

@@ -22,16 +22,23 @@
     font-family: "Kh";
     src: url("../assets/fonts/Kingdom_Hearts_Font.ttf") format("truetype");
 }
-/* body{
-    background-image: url("../assets/pictures/background.png");
-} */
+* {
+    margin: 0;
+    /* padding: 0;/ */
+    /* box-sizing: border-box; */
+}
+
+body{
+        backdrop-filter: contrast(0.5);
+}
 nav{
-    min-height: 10vh;
+    min-height: 10%;
     display: flex;
     align-items: center;
     width:90%;
     margin:auto;
     padding: 2rem;
+	/* background-color: black; */
 }
 nav ul{
     display: flex;
@@ -41,6 +48,7 @@ nav ul{
     list-style: none;
     margin-left: 15rem;
     font-size: 25px;
+	background-color: black;
 }
 a,a:hover,a:active,a:focus {
 	display:inline-block;
@@ -54,12 +62,15 @@ h2{
     font-size: 25px;
 }
 h3{
-    color:gray;
+    color:white;
 }
 .title{
     font-family: "Kh";
     font-size: 100pt;
     
+}
+.profil{
+	max-height: 30%;
 }
 .photo{
     width: 200px;
@@ -72,7 +83,7 @@ h3{
     text-align: justify;
     margin-left: 0rem;
     /* font-size: 22px; */
-    color: gray;
+    color: white;
 }
 .infos2{
     display: inline-flex;
@@ -81,7 +92,7 @@ h3{
     text-align: justify;
     margin-left: 0rem;
     /* font-size: 22px; */
-    color: gray;
+    color: white;
 }
 .FirstName{
     justify-content: space-between;
@@ -117,7 +128,7 @@ fieldset{
     height: 50%;
 }
 .skills{
-    margin-top: -75rem;
+    margin-top: -60rem;
     display: flex;
     justify-content: right;
     color: white;
@@ -129,6 +140,9 @@ fieldset{
 .Soft{
     font-size: 22px;
     color: rgb(113, 7, 7);
+	background-color:#888888;
+	height: 0%;
+	width: 14%;
 }
 body .skill-bars {
 	margin-top: 6rem;
@@ -218,25 +232,6 @@ body .skill-bars {
 	position: relative;
 	padding-top: 1.5rem;
 }
-/* .timeline-ico {
-	height: 4.8rem;
-	width: 4.8rem;
-	line-height: 4.8rem;
-	background: #313131;
-	border-radius: 50%;
-	text-align: center;
-	color: #FFFFFF;
-	position: absolute;
-	left: 35%;
-	top: .9rem;
-	margin-left: -2.4rem;
-}
-.timeline-ico i {
-	position: relative;
-	left: .05rem;
-	top: .2rem;
-} */
-
 .timeline-header {
 	float: left;
 	width: 35%;
@@ -254,7 +249,7 @@ body .skill-bars {
 .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
-    color: #888888;
+    color: black;
 }
 .timeline-content h4 {
 	position: relative;
@@ -272,4 +267,9 @@ body .skill-bars {
 }
 .pose{
 	max-width: 300%;
+}
+#CV{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
