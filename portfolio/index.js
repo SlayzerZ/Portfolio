@@ -68,7 +68,7 @@ let Currency = new Image (1000,600); Currency.src = './assets/pictures/currency.
 Description2[0].appendChild(Currency)
 Description2[1].appendChild(DVD)
 Description2[2].appendChild(To_do)
-
+//hey
 console.log(Description[14])
 for (i = 0; i < Projet.length; i++) { 
     Projet[i].innerHTML = Projet[i].innerHTML + Separator2
