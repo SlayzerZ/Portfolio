@@ -25,6 +25,7 @@
 body{
     /* background: linear-gradient(#FCB147, #5C7084,#A0F1F9,#A36705,#A19858,#E4D34B,#F3765A,#C20B3E,#566814,#D57BB7,#8846B0); */
     background-image: url("../assets/pictures/bg3.jpg");
+    /* background-repeat: no-repeat; */
 }
 nav{
     min-height: 10vh;
@@ -68,67 +69,51 @@ img{
 }
 .school{
 text-align: center;
+color: aliceblue;
+}
+.personnal{
+    text-align: center;
+    color: aliceblue;
 }
 .Description{
 font-weight: bold;
 }
-#match{
+.Description2{
+    font-weight: bold;
+}
+.projet{
     /* background-color:#FCB147; */
     color: aliceblue;
-}
-#hangman{
-    /* background-color:#5C7084; */
-    color: aliceblue;
-}
-#hangmanweb{
-    /* background-color:#A0F1F9; */
-    color: aliceblue;
-}
-#shop{
-    /* background-color:#A36705; */
-    color: aliceblue;
-}
-#groupie{
-    /* background-color:#A19858; */
-    color: aliceblue;
-}
-#get{
-    /* background-color:#E4D34B; */
-    color: aliceblue;
-}
-#brick{
-    /* background-color:#F3765A; */
-    color: aliceblue;
-}
-#pimp{
-    /* background-color:#C20B3E; */
-    color: aliceblue;
-}
-#keycodes{
-    /* background-color:#566814; */
-    color: aliceblue;
+    
 }
 #sortable{
     /* display:flex; */
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap-reverse;
-    /* background-color:#D57BB7; */
-    color: aliceblue;
 }
-#boxxle{
-    /* background-color:#8846B0; */
-    color: aliceblue;
-}
-#forum{
-    /* background-color:#8846B0; */
-    color: aliceblue;
-}
+
 #Link{
     font-size: 25px;
+    text-align: center;
+    color: aliceblue;
 }
 .pose{
     height: 0px;
 	max-height: 0%;
     border-color: black;
+}
+.Tschool{
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+}
+.Tpersonnal{
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+}
+.pose{
+    border-color: yellow;
+    background-color: yellow;
 }
