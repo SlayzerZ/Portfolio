@@ -33,7 +33,7 @@ let Tamago3 = new Image(800, 1000); Tamago3.src = './assets/pictures/tamago3.gif
 let Dactylo = new Image(1000, 600); Dactylo.src = './assets/pictures/dactylo.gif'
 let Php1 = new Image(1000, 600); Php1.src = './assets/pictures/php1.gif'
 let Php2 = new Image(1000, 600); Php2.src = './assets/pictures/php2.gif'
-let ProtoLaunch = new Image(1000, 600); ProtoLaunch.src = '/assets/pictures/launch.jpg'
+let ProtoLaunch = new Image(1000, 600); ProtoLaunch.src = './assets/pictures/launch.jpg'
 Description[0].appendChild(Matchstick)
 Description[1].appendChild(Hangman)
 Description[2].appendChild(HangmanWeb)
