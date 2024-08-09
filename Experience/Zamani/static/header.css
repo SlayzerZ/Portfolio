@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    font-family: Arial;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    margin-bottom: 30%;
+    /* margin-left: 10%; */
+    top: 0px;
+    background-color: #ffe819;
+    width: 100%;
+    /* height: 100%; */
+}
+
+header .title {
+    margin-left: 1%;
+    /* width: auto; */
+}
+
+header .title img {
+    width: 80%;
+    transition: 0.2s;
+}
+
+header .title img:hover {
+    /* width: 110%; */
+    transform: scale(1.06) rotate(2deg);
+    transition: 0.2s;
+}
+
+header ul {
+    list-style-type: none;
+    position: relative;
+    left: 50%;
+    display: flex;
+    gap: 30%;
+    align-items: center;
+}
+
+header .content {
+    display: none;
+}
+
+header li {
+    display: flex;
+    transition: 0.2s;
+}
+
+header li:hover {
+    color: white;
+    background-color: #d3067c;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: white;
+}
+
+header li a {
+    width: fit-content;
+    text-decoration: none
+}
+
+#G {
+    width: 70px;
+    color: #0000EE;
+}
+
+#G:hover {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown .content {
+    position: absolute;
+    right: -8px;
+    /* min-width: 160px; */
+    background-color: #d3067c;
+    width: fit-content;
+
+}
+
+.dropdown .content a {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    display: block;
+    transition: 0.2s;
+}
+
+.dropdown .content a:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.dropdown .content a:link {
+    color: white;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0000EE;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.dropbtn:hover {
+    color: white;
+}
+
+.back img {
+    width: 100%;
+    /* height: 10%; */
+}
+
+.back {
+    width: 2%;
+    transition: 0.2s;
+}
+
+.back:hover {
+    background-color: #0000EE;
+    transition: 0.2s;
+}
