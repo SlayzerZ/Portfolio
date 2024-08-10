@@ -64,6 +64,10 @@ header a:hover {
     color: white;
 }
 
+header a:visited {
+    color: white;
+}
+
 header li a {
     width: fit-content;
     text-decoration: none
@@ -71,7 +75,7 @@ header li a {
 
 #G {
     width: 70px;
-    color: #0000EE;
+    color: #3375b8;
 }
 
 #G:hover {
@@ -113,7 +117,7 @@ header li a {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #0000EE;
+    color: #3375b8;
     font-size: 16px;
     transition: 0.2s;
 }
@@ -133,6 +137,6 @@ header li a {
 }
 
 .back:hover {
-    background-color: #0000EE;
+    background-color: #3375b8;
     transition: 0.2s;
 }

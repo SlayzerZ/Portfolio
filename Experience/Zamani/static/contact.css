@@ -3,16 +3,16 @@
     flex-direction: column;
 }
 
-.container {
-    height: 110vh;
-    background-color: #ffe819;
-}
-
 .Press {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 7%;
     background-color: #d3067c;
     color: white;
+    height: 300px;
+    align-items: center;
+    height: 50rem;
 }
 
 .articles {
@@ -20,20 +20,18 @@
     margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 15%;
+    gap: 25%;
 }
 
 .article {
     text-align: center;
-    background-color: #d3067c;
-    /* width: 220px; */
-    transition: transform 0.3s ease;
 }
 
 .article img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
 .article p {
@@ -41,17 +39,7 @@
     font-size: 1.2em;
 }
 
-.article:hover {
+.article img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-}
-
-.article a:link {
-    color: white;
-    text-decoration: none;
-}
-
-.article a:visited {
-    color: white;
-    text-decoration: none;
 }
