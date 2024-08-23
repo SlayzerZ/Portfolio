@@ -4,8 +4,8 @@
 }
 
 .container {
-    height: 110vh;
-    background-color: #ffe819;
+    height: 125vh;
+    background-color: rgb(51, 117, 184);
 }
 
 .Press {
@@ -17,7 +17,8 @@
 
 .articles {
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 7%;
+    margin-right: 2%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15%;
@@ -26,7 +27,7 @@
 .article {
     text-align: center;
     background-color: #d3067c;
-    /* width: 220px; */
+    width: fit-content;
     transition: transform 0.3s ease;
 }
 
@@ -34,6 +35,11 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.article .img1 {
+    /* width: 75%; */
+    /* height: 70%; */
 }
 
 .article p {
