@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Lombax";
+    src: url("../assets/fonts/Lombax.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sheikah";
+    src: url("../assets/fonts/botw-hylian.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Hylia";
+    src: url("../assets/fonts/HyliaSerif.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Wumpa";
+    src: url("../assets/fonts/Crash\ Bandicoot\ Wumpa.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mario";
+    src: url("../assets/fonts/supermario.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Kh";
+    src: url("../assets/fonts/Kingdom_Hearts_Font.ttf") format("truetype");
+}
+
+body {
+    /* background: linear-gradient(#FCB147, #5C7084,#A0F1F9,#A36705,#A19858,#E4D34B,#F3765A,#C20B3E,#566814,#D57BB7,#8846B0); */
+    background-image: url("../assets/pictures/bg3.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 2 1 30rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 15rem;
+    font-size: 25px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    display: inline-block;
+    text-decoration: none;
+    color: #6a708e;
+    font-size: 25px;
+    padding: 0;
+}
+
+.title {
+    font-family: "Hylia";
+    font-size: 50pt;
+    color: rgb(193, 2, 2);
+}
+
+.line {
+    font-family: "Hylia";
+    color: rgb(202, 1, 12);
+    text-align: center;
+}
+
+.school {
+    text-align: center;
+    color: aliceblue;
+}
+
+.personnal {
+    text-align: center;
+    color: aliceblue;
+}
+
+.Description {
+    font-weight: bold;
+}
+
+.Description2 {
+    font-weight: bold;
+}
+
+.projet {
+    /* background-color:#FCB147; */
+    color: aliceblue;
+
+}
+
+#sortable {
+    /* display:flex; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+#Link {
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.pose {
+    height: 0px;
+    max-height: 0%;
+    border-color: black;
+}
+
+.Tschool {
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+}
+
+.Tpersonnal {
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+}
+
+.pose {
+    border-color: yellow;
+    background-color: yellow;
+}
+
+.projets {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15%;
+}
+
+.projet {
+    text-align: center;
+    background-color: rgb(42, 43, 48);
+    transition: all 0.2s;
+}
+
+.projet a {
+    color: rgb(201, 126, 123)
+}
+
+.projet img {
+    width: 100%;
+}
+
+.projet:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}

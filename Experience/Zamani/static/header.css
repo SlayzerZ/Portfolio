@@ -144,3 +144,11 @@ header li a {
     background-color: #3375b8;
     transition: 0.2s;
 }
+
+.container hr {
+    margin-top: 1%;
+    border: none;
+    background-color: #3375b8;
+    height: 15px;
+    width: 100%;
+}
