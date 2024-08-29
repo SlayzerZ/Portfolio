@@ -17,26 +17,21 @@ h1 {
 
 .Press {
     display: flex;
-    margin-top: 5%;
-    margin-left: 25%;
-    gap: 15%;
-    /* align-items: center; */
+    margin-left: 15%;
+    gap: 30%;
 }
 
 .Press .text {
     min-width: 25%;
 }
 
+.Press .pictures {
+    display: flex;
+    flex-direction: column;
+}
+
 .Press img {
-    width: 45%;
-}
-
-#img3 {
-    width: 80%;
-}
-
-#img2 {
-    margin-left: 15%;
+    width: 60%;
 }
 
 h3 {
@@ -51,22 +46,5 @@ h3 {
     background: rgba(0, 0, 0, .8) url(./a-filigrane.png) right bottom no-repeat;
     position: absolute;
     background-size: cover;
-    top: 272.7%;
-}
-
-x {
-    font-size: 10px;
-    text-align: start;
-}
-
-.hrbl {
-    margin-top: 1%;
-    border: none;
-    background-color: #3375b8;
-    height: 15px;
-    width: 100%;
-}
-
-.pictures2 {
-    justify-self: center;
+    top: 83.1%;
 }
