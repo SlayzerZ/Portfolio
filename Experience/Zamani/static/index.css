@@ -4,7 +4,7 @@
 }
 
 .container {
-    height: 127vh;
+    height: 140vh;
     background-color: rgb(51, 117, 184);
 }
 
@@ -35,11 +35,6 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.article .img1 {
-    /* width: 75%; */
-    /* height: 70%; */
 }
 
 .article p {

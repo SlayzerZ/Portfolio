@@ -145,7 +145,7 @@ header li a {
     transition: 0.2s;
 }
 
-.container hr {
+hr[class="hrbl"] {
     margin-top: 1%;
     border: none;
     background-color: #3375b8;

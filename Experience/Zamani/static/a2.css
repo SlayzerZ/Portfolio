@@ -38,7 +38,7 @@ h3 {
     text-decoration: underline;
 }
 
-.footer:after {
+/* .footer:after {
     display: inline-block;
     content: "";
     width: 100%;
@@ -46,6 +46,5 @@ h3 {
     background: rgba(0, 0, 0, .8) url(./a-filigrane.png) right bottom no-repeat;
     position: absolute;
     background-size: cover;
-    top: 103.4%;
-    /* bottom: 0%; */
-}
+    top: 116.1%;
+} */

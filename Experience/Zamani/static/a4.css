@@ -38,7 +38,7 @@ h3 {
     text-decoration: underline;
 }
 
-.footer:after {
+/* .footer:after {
     display: inline-block;
     content: "";
     width: 100%;
@@ -47,4 +47,4 @@ h3 {
     position: absolute;
     background-size: cover;
     top: 91.9%;
-}
+} */
