@@ -42,6 +42,6 @@ h3 {
     padding: 80px;
 }
 
-.footer::before {
+.footer:before {
     height: 160%;
 }

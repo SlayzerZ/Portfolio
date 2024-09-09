@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -13,6 +14,11 @@
     margin-top: 7%;
     background-color: #d3067c;
     color: white;
+}
+
+.Press h3 {
+    width: 80%;
+    margin-left: 11%;
 }
 
 .articles {
