@@ -18,29 +18,30 @@ h1 {
 .Press {
     display: flex;
     margin-left: 15%;
-    gap: 20%;
+    gap: 30%;
 }
 
 .Press .text {
     min-width: 25%;
 }
 
+.Press .pictures {
+    display: flex;
+    flex-direction: column;
+}
+
 .Press img {
-    width: 40%;
+    width: 60%;
 }
 
 h3 {
     text-decoration: underline;
 }
 
-/* 
-.footer:after {
-    display: inline-block;
-    content: "";
-    width: 100%;
-    height: 57%;
-    background: rgba(0, 0, 0, .8) url(./a-filigrane.png) right bottom no-repeat;
-    position: absolute;
-    background-size: cover;
-    top: 143%;
-} */
+.footer {
+    padding: 80px;
+}
+
+.footer::before {
+    height: 160%;
+}
